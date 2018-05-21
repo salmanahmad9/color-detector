@@ -1,7 +1,8 @@
 # SVM Color Detector
 This is an OpenCV program that can detect the color of objects in an image. It was part of a school project where we had classify the color of cars in the streets, but you can also train it on your own dataset.
-### Note: This repository work with lower version of OpenCV3.0. I personally build it with OpenCV-2.4.9 with vs 2015.
-for doing so you need to follow these steps
+### Note: This repository work with lower version of OpenCV3.0. I personally build it with OpenCV-2.4.9 with vs 2015 on Windows 10.
+for doing so you need to follow these steps :
+- you need to add dirent.h using this <a href="https://codeyarns.com/2014/06/06/how-to-use-dirent-h-with-visual-studio/">blog</a> for compile it on windows.
 - install cmake 
 - get the source of OpenCV-2.4.9 
 - generate code using cmake 
